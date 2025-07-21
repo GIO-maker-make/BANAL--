@@ -8,3 +8,8 @@ docker push zezols/banaleweb:latest
 
 # pour lire 
 ./run_banaleweb.sh
+
+#Pour pousser les modifications sur le repo github
+git add .
+git commit -m "ton message"
+git push
