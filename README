@@ -1,0 +1,10 @@
+#Après avoir apporté des modifications à l’image Docker, suivez ces étapes pour la pousser sur Docker Hub
+# 1. Taguer l'image locale
+docker tag banaleweb:latest zezols/banaleweb:latest
+
+# 2. Pousser l'image sur Docker Hub
+docker push zezols/banaleweb:latest
+
+
+# pour lire 
+./run_banaleweb.sh

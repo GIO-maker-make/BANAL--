@@ -1,0 +1,27 @@
+# Fichiers de développement
+.git
+.gitignore
+.env
+.env.*
+*.log
+
+# Fichiers Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'éditeur
+.idea
+.vscode
+*.swp
+*.swo
+
+# Fichiers de build
+node_modules
+dist
+build
+*.md 
